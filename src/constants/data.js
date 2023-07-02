@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const foods = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'French Pork Rillettes',
+    price: '40.000',
+    tags: 'IDR | 300 gr',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Maryland Crab Cakes',
+    price: '75.000',
+    tags: 'IDR | Plate',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Fried Oysters',
+    price: '50.000',
+    tags: 'IDR | 300 gr',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Shrimp Ceviche',
+    price: '60.000',
+    tags: 'IDR | Plate',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Shrimp Ceviche  ',
+    price: '50.000',
+    tags: 'IDR | Plate',
   },
 ];
 
-const cocktails = [
+const mocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Strawba Sprtiz',
+    price: '20.000',
+    tags: 'Strawberry | Yogurt | banana | 30 ml',
   },
   {
     title: "Dark 'N' Stormy",
-    price: '$16',
+    price: '35.000',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
     title: 'Daiquiri',
-    price: '$10',
+    price: '30.000',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    price: '30.000',
+    tags: 'Cerry | Orange | Soda | Syrup',
   },
   {
     title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    price: '34.000',
+    tags: 'Guava | Sweet Vermouth | lime | Orange garnish',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { foods, mocktails, awards };

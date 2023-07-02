@@ -21,6 +21,8 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import restokuy from '../assets/restokuy.png';
+import logo_overlay from '../assets/logo_overlay.png';
+
 
 export default {
   bg,
@@ -46,4 +48,5 @@ export default {
   quote,
   gericht,
   restokuy,
+  logo_overlay,
 };
